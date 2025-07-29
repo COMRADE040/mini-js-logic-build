@@ -229,9 +229,99 @@ for(let i = 1; i <= 10; i++){
 
 
 
-let count = 21;
 
-while(count >= 15){
-    console.log(count)
-    count--
+
+
+
+
+
+
+
+
+// loop using break, continue, if else, do while, while
+
+
+
+
+for(let i = 0; i < 20; i++){
+    console.log(i)
+    if(i >= 10){
+        break;
+    }
+}
+
+
+
+let n = 54;
+
+while(n > 30){
+    console.log(n)
+    if(n <= 35){
+        break
+    }
+    n--
+}
+
+
+
+for (let i = 1; i < 20; i++){
+    console.log(i)
+    if(i >= 5){
+        break;
+    }
+
+}
+
+
+
+let v = 100;
+do{
+    console.log(v)
+    v++
+}while(v <= 110)
+
+
+
+
+    let century = 1;
+    let sums = 0
+    while(century <= 4){
+        console.log(century)
+        if(sums > 5){
+            break;
+        }
+        sums = sums + century
+        console.log(sums)
+        century++
+    }
+
+
+
+
+    let z = 0;
+while(z < 100){
+    z++;
+   if(z % 5 !== 0){
+    if(z !== 85 && z !== 55){
+        continue;
+    }
+   } 
+   console.log(z)
+}
+
+
+for(let i = 1; i < 40; i++){
+    if(i % 2 !== 0){
+        continue
+    }
+    console.log(i)
+}
+
+
+
+for(let i = 55; i <= 85; i++){
+    if(i % 5 === 0){
+        continue
+    }
+    console.log(i)
 }
