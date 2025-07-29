@@ -179,3 +179,59 @@ let x = 10
 if(x < 15){
     console.log('5-15')
 }
+
+
+
+
+
+
+//While Loop
+
+
+
+let num = 81;
+let sum = 0
+
+while(num <= 131){
+    if(num % 2 === 1){
+        console.log("Odd Number: ", num)
+        sum = sum + num;
+        console.log(sum)
+    }
+    num++
+}
+
+
+
+
+let number = 206;
+let total = 0;
+while(number <= 311){
+    if(number % 2 === 0){
+        console.log('Even: ', number)
+        total = total + number
+        console.log(total)
+    }
+    number++
+}
+
+let multiply = 1;
+for(let i = 1; i <= 10; i++){
+    while(multiply <= 50){
+        
+        if(multiply % 5 === 0){
+            
+        }
+        multiply++
+    }
+    console.log("5", "X", i, "=", multiply)
+}
+
+
+
+let count = 21;
+
+while(count >= 15){
+    console.log(count)
+    count--
+}
